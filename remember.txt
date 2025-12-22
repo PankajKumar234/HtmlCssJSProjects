@@ -1,0 +1,8 @@
+Updating Code (Daily Workflow)
+
+Whenever you make changes:
+
+git status
+git add .
+git commit -m "Updated about section and styles"
+git push

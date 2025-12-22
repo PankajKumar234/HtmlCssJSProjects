@@ -151,3 +151,50 @@
             color: gray;
             padding: 12px 0;
         }
+
+        @media (max-width: 768px) {
+
+        nav{
+            flex-direction: column;
+            height: auto;
+            padding: 15px 0;
+        }
+
+        .firstsection{
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .firstsection > div{
+            width: 90%;
+        }
+
+        .rightsection img{
+            width: 60%;
+            margin-top: 30px;
+        }
+
+        .secondsection{
+            height: auto;
+        }
+
+        .secondsection .box{
+            flex-direction: column;
+            height: auto;
+            width: 100%;
+        }
+
+        .secondsection .vertical{
+            margin: 30px 0;
+            height: auto;
+            width: 100%;
+            background: none;
+        }
+
+        .vertical-title,
+        .vertical-desc{
+            position: static;
+            width: auto;
+            font-size: 14px;
+        }
+    }

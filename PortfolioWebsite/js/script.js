@@ -3,8 +3,9 @@ document.addEventListener("DOMContentLoaded", () => {
     new Typed("#element", {
         strings: [
             "Full Stack Developer",
-            "Python Developer",
-            "System Administrator (AWS/Linux)"
+            "Backend Python Developer",
+            "Backend Web Developer",
+            "UIUX Developer"
         ],
         typeSpeed: 50,
         backSpeed: 30,
